@@ -1,0 +1,40 @@
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-wrap {
+  flex: 1;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.scroll {
+  height: 10000px;
+  background: linear-gradient(to bottom, #2c3e50, #3498db);
+}
+
+.scroll_second {
+  background: linear-gradient(to bottom, #f1f2b5, #135058);
+}
+
+.header {
+  height: 50px;
+  background-color: #f1f2b5;
+}
+
+.header_second {
+  background-color: #3498db;
+}
